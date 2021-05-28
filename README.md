@@ -1,5 +1,16 @@
 # bittorrent
 
+**List of Supported Features**
+- Connect to the tracker to request peers to communicate with
+- Request and download sub-pieces of length 15000 max each time to complete download a piece from a peer.
+- When the client shutdown before completely downloading the files, the client can restart with the pieces they had already downloaded
+- Support using a torrent file that would download multiple files
+- Create folder for files downloaded according to the paths in the torrent file
+- Optimistic unchoking
+- Uploading
+
+![image](https://user-images.githubusercontent.com/4231022/120005026-70541600-bfa5-11eb-9cc9-c4cb8921b1f1.png)
+
 ```
 1) Git clone the repository
 
@@ -36,3 +47,4 @@ Beginning download of torrent:
   | common.dll (6.7 MiB)
   | install.dat (214.0 MiB)
   ```
+
